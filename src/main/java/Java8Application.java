@@ -21,7 +21,6 @@ public class Java8Application extends Application<Configuration> {
     public void initialize(Bootstrap<Configuration> bootstrap) {
         //bootstrap.setObjectMapper(mapper);
         bootstrap.addBundle(new Java8Bundle());
-        bootstrap.setConfigurationFactoryFactory(new HoconConfigurationFactoryFactory());
     }
 
     @Override
